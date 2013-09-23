@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+
+  <servlet> 
+	<servlet-name>MailBlaster</servlet-name>
+	<servlet-class>MailBlaster</servlet-class>
+	<load-on-startup/>
+  </servlet>
+
+  <servlet> 
+	<servlet-name>AddToList</servlet-name>
+	<servlet-class>AddToList</servlet-class>	
+  </servlet>
+  
+  <servlet> 
+	<servlet-name>AddToList1</servlet-name>
+	<servlet-class>AddToList1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>AdminControlLeft</servlet-name>
+	<servlet-class>AdminControlLeft</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>AdminControlMiddle</servlet-name>
+	<servlet-class>AdminControlMiddle</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>AdminLogin</servlet-name>
+	<servlet-class>AdminLogin</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>BuildCampaign</servlet-name>
+	<servlet-class>BuildCampaign</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>BuildCampaign1</servlet-name>
+	<servlet-class>BuildCampaign1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>BuildCampaign2</servlet-name>
+	<servlet-class>BuildCampaign2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>CancelLaunch</servlet-name>
+	<servlet-class>CancelLaunch</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>CancelLaunch1</servlet-name>
+	<servlet-class>CancelLaunch1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteCamp</servlet-name>
+	<servlet-class>DeleteCamp</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteCamp2</servlet-name>
+	<servlet-class>DeleteCamp2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteFromList</servlet-name>
+	<servlet-class>DeleteFromList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteFromList1</servlet-name>
+	<servlet-class>DeleteFromList1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteList</servlet-name>
+	<servlet-class>DeleteList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteList2</servlet-name>
+	<servlet-class>DeleteList2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteReport</servlet-name>
+	<servlet-class>DeleteReport</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>DeleteReport1</servlet-name>
+	<servlet-class>DeleteReport1</servlet-class>	
+  </servlet>
+  
+  <servlet> 
+	<servlet-name>DeleteAttachment</servlet-name>
+	<servlet-class>DeleteAttachment</servlet-class>	
+  </servlet>
+  
+  <!--<servlet> -->
+	<!--<servlet-name>DownloadAttachment</servlet-name>-->
+	<!--<servlet-class>DownloadAttachment</servlet-class>	-->
+  <!--</servlet>-->
+
+
+  <servlet> 
+	<servlet-name>EditCamp</servlet-name>
+	<servlet-class>EditCamp</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>EditCamp1</servlet-name>
+	<servlet-class>EditCamp1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>EditList</servlet-name>
+	<servlet-class>EditList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>EditList1</servlet-name>
+	<servlet-class>EditList1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>EditList2</servlet-name>
+	<servlet-class>EditList2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ExportList</servlet-name>
+	<servlet-class>ExportList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ExportList2</servlet-name>
+	<servlet-class>ExportList2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>LaunchCamp</servlet-name>
+	<servlet-class>LaunchCamp</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>LaunchCamp1</servlet-name>
+	<servlet-class>LaunchCamp1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>Logout</servlet-name>
+	<servlet-class>Logout</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>PreviewCamp</servlet-name>
+	<servlet-class>PreviewCamp</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>PreviewCamp1</servlet-name>
+	<servlet-class>PreviewCamp1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>PreviewCamp2</servlet-name>
+	<servlet-class>PreviewCamp2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>RenameCamp</servlet-name>
+	<servlet-class>RenameCamp</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>RenameCamp2</servlet-name>
+	<servlet-class>RenameCamp2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>RenameList</servlet-name>
+	<servlet-class>RenameList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>RenameList2</servlet-name>
+	<servlet-class>RenameList2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ScheduleMail</servlet-name>
+	<servlet-class>ScheduleMail</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ScheduleMail2</servlet-name>
+	<servlet-class>ScheduleMail2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>SelectAudi</servlet-name>
+	<servlet-class>SelectAudi</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>SendTestMail</servlet-name>
+	<servlet-class>SendTestMail</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>SendTestMail1</servlet-name>
+	<servlet-class>SendTestMail1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UnSubscribe</servlet-name>
+	<servlet-class>UnSubscribe</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UpdateAudi</servlet-name>
+	<servlet-class>UpdateAudi</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UpdateLinkCount</servlet-name>
+	<servlet-class>UpdateLinkCount</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UpdateReport</servlet-name>
+	<servlet-class>UpdateReport</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UploadList</servlet-name>
+	<servlet-class>UploadList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UploadList1</servlet-name>
+	<servlet-class>UploadList1</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UploadList2</servlet-name>
+	<servlet-class>UploadList2</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>UploadNewList</servlet-name>
+	<servlet-class>UploadNewList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ViewList</servlet-name>
+	<servlet-class>ViewList</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ViewReport</servlet-name>
+	<servlet-class>ViewReport</servlet-class>	
+  </servlet>
+
+  <servlet> 
+	<servlet-name>ViewUnsub</servlet-name>
+	<servlet-class>ViewUnsub</servlet-class>	
+  </servlet>
+
+   <servlet-mapping>
+        <servlet-name>MailBlaster</servlet-name>
+        <url-pattern>/MailBlaster</url-pattern>
+   </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>AddToList</servlet-name>
+	<url-pattern>/AddToList</url-pattern>	
+  </servlet-mapping>
+  
+  <servlet-mapping> 
+	<servlet-name>AddToList1</servlet-name>
+	<url-pattern>/AddToList1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>AdminControlLeft</servlet-name>
+	<url-pattern>/AdminControlLeft</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>AdminControlMiddle</servlet-name>
+	<url-pattern>/AdminControlMiddle</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>AdminLogin</servlet-name>
+	<url-pattern>/AdminLogin</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>BuildCampaign</servlet-name>
+	<url-pattern>/BuildCampaign</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>BuildCampaign1</servlet-name>
+	<url-pattern>/BuildCampaign1</url-pattern>	
+  </servlet-mapping>
+  
+  <servlet-mapping> 
+	<servlet-name>BuildCampaign2</servlet-name>
+	<url-pattern>/BuildCampaign2</url-pattern>	
+  </servlet-mapping>
+
+
+  <servlet-mapping> 
+	<servlet-name>CancelLaunch</servlet-name>
+	<url-pattern>/CancelLaunch</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>CancelLaunch1</servlet-name>
+	<url-pattern>/CancelLaunch1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteCamp</servlet-name>
+	<url-pattern>/DeleteCamp</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteCamp2</servlet-name>
+	<url-pattern>/DeleteCamp2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteFromList</servlet-name>
+	<url-pattern>/DeleteFromList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteFromList1</servlet-name>
+	<url-pattern>/DeleteFromList1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteList</servlet-name>
+	<url-pattern>/DeleteList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteList2</servlet-name>
+	<url-pattern>/DeleteList2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteReport</servlet-name>
+	<url-pattern>/DeleteReport</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>DeleteReport1</servlet-name>
+	<url-pattern>/DeleteReport1</url-pattern>	
+  </servlet-mapping>
+  
+  <servlet-mapping> 
+	<servlet-name>DeleteAttachment</servlet-name>
+	<url-pattern>/DeleteAttachment</url-pattern>	
+  </servlet-mapping>
+  
+  <!--<servlet-mapping> -->
+	<!--<servlet-name>DownloadAttachment</servlet-name>-->
+	<!--<url-pattern>/DownloadAttachment</url-pattern>	-->
+  <!--</servlet-mapping>-->
+
+
+  <servlet-mapping> 
+	<servlet-name>EditCamp</servlet-name>
+	<url-pattern>/EditCamp</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>EditCamp1</servlet-name>
+	<url-pattern>/EditCamp1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>EditList</servlet-name>
+	<url-pattern>/EditList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>EditList1</servlet-name>
+	<url-pattern>/EditList1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>EditList2</servlet-name>
+	<url-pattern>/EditList2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ExportList</servlet-name>
+	<url-pattern>/ExportList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ExportList2</servlet-name>
+	<url-pattern>/ExportList2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>LaunchCamp</servlet-name>
+	<url-pattern>/LaunchCamp</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>LaunchCamp1</servlet-name>
+	<url-pattern>/LaunchCamp1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>Logout</servlet-name>
+	<url-pattern>/Logout</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>PreviewCamp</servlet-name>
+	<url-pattern>/PreviewCamp</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>PreviewCamp1</servlet-name>
+	<url-pattern>/PreviewCamp1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>PreviewCamp2</servlet-name>
+	<url-pattern>/PreviewCamp2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>RenameCamp</servlet-name>
+	<url-pattern>/RenameCamp</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>RenameCamp2</servlet-name>
+	<url-pattern>/RenameCamp2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>RenameList</servlet-name>
+	<url-pattern>/RenameList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>RenameList2</servlet-name>
+	<url-pattern>/RenameList2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ScheduleMail</servlet-name>
+	<url-pattern>/ScheduleMail</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ScheduleMail2</servlet-name>
+	<url-pattern>/ScheduleMail2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>SelectAudi</servlet-name>
+	<url-pattern>/SelectAudi</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>SendTestMail</servlet-name>
+	<url-pattern>/SendTestMail</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>SendTestMail1</servlet-name>
+	<url-pattern>/SendTestMail1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UnSubscribe</servlet-name>
+	<url-pattern>/UnSubscribe</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UpdateAudi</servlet-name>
+	<url-pattern>/UpdateAudi</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UpdateLinkCount</servlet-name>
+	<url-pattern>/UpdateLinkCount</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UpdateReport</servlet-name>
+	<url-pattern>/UpdateReport</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UpdateReport</servlet-name>
+	<url-pattern>/UpdateReport/*</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UploadList</servlet-name>
+	<url-pattern>/UploadList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UploadList1</servlet-name>
+	<url-pattern>/UploadList1</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UploadList2</servlet-name>
+	<url-pattern>/UploadList2</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>UploadNewList</servlet-name>
+	<url-pattern>/UploadNewList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ViewList</servlet-name>
+	<url-pattern>/ViewList</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ViewReport</servlet-name>
+	<url-pattern>/ViewReport</url-pattern>	
+  </servlet-mapping>
+
+  <servlet-mapping> 
+	<servlet-name>ViewUnsub</servlet-name>
+	<url-pattern>/ViewUnsub</url-pattern>	
+  </servlet-mapping>
+  
+<!--  <error-page>
+    <error-code>500</error-code>
+    <location>error_null.html</location>
+</error-page>
+
+<error-page>
+    <error-code>405</error-code>
+    <location>error.html</location>
+</error-page>
+-->
+
+
+</web-app>
